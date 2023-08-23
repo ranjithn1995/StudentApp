@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>StudentApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <servlet-name>AddStudentController</servlet-name>
+    <servlet-class>com.std.app.controller.AddStudentController</servlet-class>
+    
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>AddStudentController</servlet-name>
+    <url-pattern>/AddStudentController</url-pattern>
+    
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>DeletetudentController</servlet-name>
+    <servlet-class>com.std.app.controller.DeletetudentController</servlet-class>
+    
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>DeletetudentController</servlet-name>
+    <url-pattern>/DeletetudentController</url-pattern>
+    
+    </servlet-mapping>
+    
+     <servlet>
+    <servlet-name>SearchStudentController</servlet-name>
+    <servlet-class>com.std.app.controller.SearchStudentController</servlet-class>
+    
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>SearchStudentController</servlet-name>
+    <url-pattern>/SearchStudentController</url-pattern>
+    
+    </servlet-mapping>
+    
+     <servlet>
+    <servlet-name>DisplayAllStudents</servlet-name>
+    <servlet-class>com.std.app.controller.DisplayAllStudents</servlet-class>
+    
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>DisplayAllStudents</servlet-name>
+    <url-pattern>/DisplayAllStudents</url-pattern>
+    
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>StudentMockUpdate</servlet-name>
+    <servlet-class>com.std.app.controller.StudentMockUpdate</servlet-class>
+    
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>StudentMockUpdate</servlet-name>
+    <url-pattern>/StudentMockUpdate</url-pattern>
+    
+    </servlet-mapping>
+    
+  
+</web-app>
